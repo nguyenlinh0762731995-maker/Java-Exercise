@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author phuonglinh
  */
-public class ReversArrya {
+public class ReversArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int count = sc.nextInt();
