@@ -13,7 +13,7 @@ public class Ex10 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Nhap so diem tong ket: ");
+        System.out.print("Nhap so diem tong ket: ");
         double score = sc.nextDouble();
         if (score >= 5) {
             System.out.println("Dat");

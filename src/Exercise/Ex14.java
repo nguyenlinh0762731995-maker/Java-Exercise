@@ -6,22 +6,19 @@ package Exercise;
 
 import java.util.Scanner;
 
-/*
-nhap n dung (if/else if/else): kiem tra la so duong, am hoac bang khong
+/**
+ *
+ * @author phuonglinh
  */
-public class Ex08 {
+public class Ex14 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Nhap so nguyen: ");
+        System.out.print("Enter n to print the multiplication table: ");
         int n = sc.nextInt();
-        if (n > 0) {
-            System.out.println("So nguyen duong");
-        } else if (n == 0) {
-            System.out.println("Bang 0");
-        } else {
-            System.out.println("So nguyen am");
+        for (int i = 1; i <= n; i++) {
+            System.out.println(i + " * " + n + " = " + (i * n));
+
         }
     }
 }
-

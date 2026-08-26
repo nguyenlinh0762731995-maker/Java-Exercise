@@ -14,7 +14,7 @@ public class Ex09 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Nhap so nguyen : ");
+        System.out.print("Nhap so nguyen : ");
         int n = sc.nextInt();
         if (n % 2 == 0) {
             System.out.println("So chan");
