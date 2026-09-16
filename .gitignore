@@ -1,2 +1,5 @@
 build/
 .DS_Store
+/src/Lec01_Introduction/NguyenTranThiPhuongLinh_2103/nbproject/private
+/dist/
+/nbproject/private/
